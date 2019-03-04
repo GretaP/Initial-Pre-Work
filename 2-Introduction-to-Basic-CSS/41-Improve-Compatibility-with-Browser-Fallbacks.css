@@ -1,0 +1,14 @@
+<!-- Learned that rather than using an inline variable fallback, which would fail if a browser wasn't compatible with variables, that you can simply add a fallback right before the variable is created/called.-->
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
