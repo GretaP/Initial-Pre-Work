@@ -1,0 +1,35 @@
+<!-- grid-column   to use the grid   <--- Interesting: you can tell how many columns / rows to use up based on lines inbetween the columns (see nice picture in freecodecamp).  For instance, if you have 4 rows, 1/3 means what you choose spans 2 columns (start to the farthest left line, and end at the 3rd line which is next to the end of the 2nd column) -->
+
+<style>
+  .item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+
+  .item5 {
+    background: PaleGreen;
+    /* add your code below this line */
+    grid-column: 2/4;
+
+    /* add your code above this line */
+  }
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+</div>
