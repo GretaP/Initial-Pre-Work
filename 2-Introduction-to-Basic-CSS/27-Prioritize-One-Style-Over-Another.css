@@ -1,0 +1,13 @@
+<!-- And now it's pink... not sure what pink and black remind me of.  But yay CSS order of precedence-->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
