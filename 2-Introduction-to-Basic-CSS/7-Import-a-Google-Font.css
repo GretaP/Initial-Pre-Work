@@ -1,19 +1,17 @@
-<!-- I learned about degrading fonts.  I have not used this before, and it seems like a simple way to add compatibility. -->
+<!-- Life before google fonts must not have been as nice -->
 
-
-<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
     color: red;
   }
 
-  h2 {
-    font-family: Lobster, monospace;
-  }
-
   p {
     font-size: 16px;
     font-family: monospace;
+  }
+  h2 {
+    font-family: Lobster;
   }
 </style>
 
