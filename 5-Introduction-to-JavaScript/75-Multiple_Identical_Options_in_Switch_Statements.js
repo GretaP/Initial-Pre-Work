@@ -1,4 +1,4 @@
-// ...this seems like a BAD way to solve this problem, but oh well
+// ...this seems like a BAD way to solve this problem, but oh well.  I know they want to use switches.  In some ways this is cleaner, but I tend to like if statements with ranges better than ranged switches.
 
 function sequentialSizes(val) {
   var answer = "";

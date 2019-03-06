@@ -1,0 +1,16 @@
+// Learned: I didn't know offhand the hasOwnProperty function in javascript, although I knew there was a way to look up if an object has a value or not.
+
+// Setup
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
+
+function checkObj(checkProp) {
+  // Your Code Here
+  return myObj.hasOwnProperty(checkProp) ? myObj[checkProp] : "Not Found";
+}
+
+// Test your code by modifying these values
+checkObj("gift");
