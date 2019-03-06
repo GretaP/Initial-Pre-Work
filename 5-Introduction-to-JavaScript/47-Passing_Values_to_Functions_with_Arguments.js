@@ -1,4 +1,4 @@
-// basic functions
+//basic functions
 
 // Example
 function ourFunctionWithArgs(a, b) {

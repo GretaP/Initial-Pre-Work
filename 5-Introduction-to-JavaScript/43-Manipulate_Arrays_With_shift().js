@@ -1,4 +1,4 @@
-// shift() is the 1st element (removal)
+// Recap: shift() is the 1st element (removal)
 
 // Example
 var ourArray = ["Stimpson", "J", ["cat"]];

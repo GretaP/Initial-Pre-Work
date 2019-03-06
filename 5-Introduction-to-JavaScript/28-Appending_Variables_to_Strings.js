@@ -1,4 +1,4 @@
-// and more..
+//and more..
 
 // Example
 var anAdjective = "awesome!";

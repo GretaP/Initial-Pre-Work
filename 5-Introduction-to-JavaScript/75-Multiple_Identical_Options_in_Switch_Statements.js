@@ -1,4 +1,4 @@
-// this seems like a BAD way to solve this problem, but oh well
+// ...this seems like a BAD way to solve this problem, but oh well
 
 function sequentialSizes(val) {
   var answer = "";

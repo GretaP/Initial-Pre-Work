@@ -1,4 +1,4 @@
-// I had forgotten that .pop also returns that value if you assign it, rather than just removing it and being unable to use
+// Learned : I had forgotten that .pop also returns that value if you assign it, rather than just removing it and being unable to use
 
 // Example
 var ourArray = [1,2,3];

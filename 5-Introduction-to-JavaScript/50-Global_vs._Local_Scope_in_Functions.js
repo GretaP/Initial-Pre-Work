@@ -1,4 +1,4 @@
-// more LocalScope
+//more LocalScope
 // Setup
 var outerWear = "T-Shirt";
 

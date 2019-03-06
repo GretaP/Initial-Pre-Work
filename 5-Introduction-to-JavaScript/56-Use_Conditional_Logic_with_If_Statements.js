@@ -1,4 +1,4 @@
-// welcomeToBooleans
+//welcomeToBooleans
 
 // Example
 function ourTrueOrFalse(isItTrue) {

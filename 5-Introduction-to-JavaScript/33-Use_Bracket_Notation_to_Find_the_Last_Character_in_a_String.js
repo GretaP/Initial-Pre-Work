@@ -1,4 +1,4 @@
-// more basics
+//more basics
 
 // Example
 var firstName = "Ada";

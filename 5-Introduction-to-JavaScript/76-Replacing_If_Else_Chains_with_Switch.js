@@ -1,4 +1,4 @@
-// switches ... more of them.
+//switches ... more of them.
 
 function chainToSwitch(val) {
   var answer = "";
@@ -17,3 +17,4 @@ function chainToSwitch(val) {
 
 // Change this value to test
 chainToSwitch(7);
+JS

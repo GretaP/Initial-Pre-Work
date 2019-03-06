@@ -1,4 +1,4 @@
-// forgot that switches need breaks if you're not returning
+// Relearned: forgot that switches need breaks if you're not returning
 
 function caseInSwitch(val) {
   var answer = "";

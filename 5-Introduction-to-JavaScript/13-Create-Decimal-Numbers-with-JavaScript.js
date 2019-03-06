@@ -1,4 +1,4 @@
-// this is a decimal
+//this is a decimal
 
 var ourDecimal = 5.7;
 

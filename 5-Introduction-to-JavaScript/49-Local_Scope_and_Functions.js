@@ -1,4 +1,4 @@
-// basic scoping
+//basic scoping
 
 function myLocalScope() {
   'use strict'; // you shouldn't need to edit this line

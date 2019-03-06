@@ -1,4 +1,4 @@
-// and functions
+//and functions
 
 // Example
 function ourReusableFunction() {

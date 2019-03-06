@@ -1,4 +1,4 @@
-// on to arrays
+//on to arrays
 
 // Example
 var ourArray = ["John", 23];

@@ -1,4 +1,4 @@
-//Variable assignments
+//variable assignments
 
 // Setup
 var a;

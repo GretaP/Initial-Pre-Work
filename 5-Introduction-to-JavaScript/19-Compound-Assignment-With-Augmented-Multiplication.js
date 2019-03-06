@@ -1,4 +1,4 @@
-// multiplication
+//multiplication
 
 var a = 5;
 var b = 12;

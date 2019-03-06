@@ -1,4 +1,4 @@
-// greater than
+//greater than
 
 function testGreaterThan(val) {
   if (val>100) {  // Change this line

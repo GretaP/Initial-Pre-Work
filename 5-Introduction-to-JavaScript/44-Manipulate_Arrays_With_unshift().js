@@ -1,4 +1,4 @@
-//unshift is adding to the beginning of myArray
+// Recap: unshift is adding to the beginning of myArray
 
 // Example
 var ourArray = ["Stimpson", "J", "cat"];

@@ -1,4 +1,4 @@
-// breaks and defaults
+//breaks and defaults
 
 function switchOfStuff(val) {
   var answer = "";

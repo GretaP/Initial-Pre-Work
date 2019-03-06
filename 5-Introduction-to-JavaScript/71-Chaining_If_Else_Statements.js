@@ -1,4 +1,4 @@
-// reminds me of Goldilocks and the three bears
+// reminds me of Goldilocks and the three bears (too hot, too cold).  
 
 function testSize(num) {
   // Only change code below this line

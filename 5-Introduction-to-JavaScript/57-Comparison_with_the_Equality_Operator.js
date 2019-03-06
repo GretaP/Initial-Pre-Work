@@ -1,4 +1,4 @@
-// oh... type coersion and JS.
+//oh... type coersion and JS.
 
 // Setup
 function testEqual(val) {

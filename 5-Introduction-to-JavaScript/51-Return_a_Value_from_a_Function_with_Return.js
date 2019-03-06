@@ -1,4 +1,4 @@
-// functionWithArgs
+//functionWithArgs
 // Example
 function minusSeven(num) {
   return num - 7;

@@ -1,4 +1,4 @@
-// strict inequality is !==
+// Recap: strict inequality is !==
 
 // Setup
 function testStrictNotEqual(val) {
