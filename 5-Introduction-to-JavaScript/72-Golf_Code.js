@@ -12,7 +12,6 @@ function golfScore(par, strokes) {
   else if (strokes == par + 2)	return "Double Bogey"
   else return	"Go Home!"
 
-
   // Only change code above this line
 }
 
