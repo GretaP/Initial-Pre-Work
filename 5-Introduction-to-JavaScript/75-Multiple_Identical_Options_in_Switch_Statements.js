@@ -1,4 +1,4 @@
-// ...this seems like a BAD way to solve this problem, but oh well.  I know they want to use switches.  In some ways this is cleaner, but I tend to like if statements with ranges better than ranged switches.
+// This type of switch flow always looks a little messy to me.  I think  I liked conditional casing in C# and got used to having that option.
 
 function sequentialSizes(val) {
   var answer = "";

@@ -55,6 +55,8 @@ I am a bit stuck on this question, because I'm not quite sure what the question 
 The word "instance" seems vague to me.
 In the process of rendering a website, static resources will live on the server side and be sent to the client-side.  Some of these assets might already be cached - in which case the browser will not load these files again (for instance, google fonts).  Dynamic assets will be created by the server on demand and sent back to the client-side browser.  These "instances" of data will vary based on how dynamic the website is.
 
+If this refers to static resources, client-side static resources should only be created and downloaded once.
+
 referenced: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview#Dynamic_sites
 
 ## How many instances of the server-side code are available at any given time?

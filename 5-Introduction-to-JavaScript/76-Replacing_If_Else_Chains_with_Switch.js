@@ -11,10 +11,9 @@ function chainToSwitch(val) {
     case 7:  answer = "Ate Nine"; break;
     default: answer=""; break;
   }
-//nly change code above this line
+//Only change code above this line
   return answer;
 }
 
 // Change this value to test
 chainToSwitch(7);
-JS
