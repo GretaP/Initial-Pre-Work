@@ -12,7 +12,7 @@ Packets travel across a network by "hopping" from place to place.  At each hop, 
 
 The server responds, sending packets via the TCP connection back to the local machine.  (It makes various hops across the network.)  These packets are interpreted by the browser.  Once the information is received and converted into HTML content/files, the browser will render the index file (in this case) and also send out requests to fill out any additional resources that are called from these files if they are not already cached.  
 
-Techtonic uses XML, react, bootstrap, and probably many other tools.  I would be interested in how XML affects this page and I haven't worked in react.  There may be some rendering on the server side due to the use of XML/react/something I am not aware of, but at first glance it seems that most of the rendering will be done in the browser.
+Techtonic uses XML, react, bootstrap, and probably many other tools.  I would be interested in how XML affects this page and I haven't worked in react.  There may be some rendering on the server side due to the use of XML/react/something I am not aware of, but at first glance it seems that most of the rendering will be done in the browser.  XML/react would serve up specific dynamic resources while static resources are all viewable view developer tools in a browser.
 
 Sources: My notes from an online networking class, my memory, https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a, https://en.wikipedia.org/wiki/Internet_protocol_suite, https://en.wikipedia.org/wiki/Domain_Name_System, https://linuxjourney.com/lesson/path-of-a-packet
 
@@ -35,7 +35,7 @@ Calls this code makes to the server will likely be rendered on the backend/serve
 
 ## What is the server-side code’s main function?
 
-The server controls what information, including HTML/CSS/JS files, is sent to the client.  It will also run database calls if required, and serve up any information it is designed to create.
+The server controls what information, including HTML/CSS/JS files/user specific data/state information/data from databases etc, is sent to the client.  
 
 Although less common, some websites employ server-side scripting which serves up layout as well as information.
 
@@ -51,12 +51,22 @@ source in addition to memory: https://en.wikipedia.org/wiki/Run_time_(program_li
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+I am a bit stuck on this question, because I'm not quite sure what the question is asking.
+The word "instance" seems vague to me.
+In the process of rendering a website, static resources will live on the server side and be sent to the client-side.  Some of these assets might already be cached - in which case the browser will not load these files again (for instance, google fonts).  Dynamic assets will be created by the server on demand and sent back to the client-side browser.  These "instances" of data will vary based on how dynamic the website is.
+
+referenced: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview#Dynamic_sites
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+Again, I find the use of the word instance vague, and am not exactly sure what this question is asking.
+
+Server-side code could refer to the application in control of hosting ie Apache, or code snippets in scripts/js files, or code that reacts to a request and accesses a database to get information.
+
+A server has many resources available to it depending on what type of computer it is.  An AWS tiny instance will have less resources available to it than a very large one.  The network on which the server communicates will also affect how many requests it can handle.  These factors along with many others would determine the total load of a server and therefore what code can run and exist at a given time.
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+I still find this question vague as with the previous 2.  I welcome a chance to answer it more fully when it is explained further to me.
+
+A database is created to store information.  The number of "instances" in which a database will be queried or created will depend entirely on the needs of the website.  A database is normally only created once, then queries will be made which can alter the data inside the database and extract information from it.  I am assuming for the purposes of the question that we are talking about relational databases like PostreSQL or MySQL.  There can be many queries at a given time to the same database, and there can be many databases connected to the server application.
