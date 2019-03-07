@@ -1,4 +1,4 @@
-//
+// Learned: Using destructuring assignment, you can get data from an object by key.  See example below for syntax!
 
 const stats = {
   max: 56.78,
